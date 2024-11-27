@@ -22,7 +22,7 @@ services:
     networks:
       - connector-app
     volumes:
-      - mongo-data:/data/db
+      - mongo-data:/data/db # /var/lib/docker/volumes/docker-todo-mern_mongo-data/_data/
 networks:
   connector-app:
     driver: bridge
