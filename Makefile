@@ -3,4 +3,4 @@ build:
 	docker build -t "back-end" ./server/
 
 run:
-	docker-compose up
+	docker compose up
